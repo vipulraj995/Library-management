@@ -10,7 +10,7 @@ import lombok.Data;
 public class UserVo implements Serializable{
 
 	private static final long serialVersionUID = -5907070479709687424L;
-	private String libraryId;
+	private Integer libraryId;
 	private String scardId;
 	private String username;
 	private String firstname;
